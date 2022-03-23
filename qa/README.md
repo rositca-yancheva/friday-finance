@@ -22,6 +22,6 @@ The candidate must implement the solution and submit a pull request (PR) to this
 * Please, do not attempt to PUSH directly to THIS repository;
 * Feel free to use Cypress patterns and best practices as you see fit for this challenge.
 
-____________________
+____________________________________________________________________________________________________
 
 #### If you still have any questions - please reply via email to the person who sent you this challenge.
