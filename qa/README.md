@@ -14,7 +14,7 @@ The candidate must implement the solution and submit a pull request (PR) to this
 3. So, the candidate will commit and push all changes to his/her new branch created;
 4. Candidate will send a Pull Request to this repository.
 
-## Documentation
+## Documentation (optional)
 * The goal of this topic is to explain how was the process to choose the website areas for specification and test automation. This step can be sent after the Pull Request is completed. Please, sending us an email notifying the challenge completion and also share with us briefly how was your test development process from start to finish.
 
 ## Important Notes
