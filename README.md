@@ -1,4 +1,4 @@
-# QA's challenge goal
+# QA candidate challenge goal
 Check your basic skills in specifying test scenarios and plus e2e testing automation of these scenarios.
 Therefore, you must describe scenarios for at least **THREE** navigation areas (features) of the Airbank Website (https://joinairbank.com/).
 
