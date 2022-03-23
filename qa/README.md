@@ -8,14 +8,14 @@ Therefore, you must describe scenarios for at least **THREE** navigation areas (
 * Each test specification must be automated using the [Cypress framework](https://docs.cypress.io/guides/overview/why-cypress#End-to-end).
 
 ## Submission process
-The candidate must implement the solution and submit a pull request (PR) to this repository with the solution. The PR's process works as follows:
-1. Candidate will clone this repository;
-2. Candidate Will make his/her project in a new branch (the branch name must have the following format `qa-challenge-<your name here>`, example: `qa-challenge-tatiborghi`);
-3. So, the candidate will commit and push all changes to his/her new branch created;
-4. Candidate will send a Pull Request to this repository.
+The candidate must implement the solution in a new repository (private one) with the solution. The process works as follows:
+1. Candidate will create a private repository;
+2. Candidate will put `tatidutrab`, `ErickPetru`, `patrickcneuhaus` and `Renato66` as collaborators in this new repository that must be created specifically for this challenge.
+3. So, the candidate will commit and push all changes to his/her new repository created.
 
-## Documentation (optional)
-* The goal of this topic is to explain how was the process to choose the website areas for specification and test automation. This step can be sent after the Pull Request is completed. Please, sending us an email notifying the challenge completion and also share with us briefly how was your test development process from start to finish.
+## Documentation
+* The goal of this topic is to explain how was the process to choose the website areas for specification and test automation. This step can be sent after all changes in candidate's new repository is completed. Please, sending us an email notifying the challenge completion.
+Also share with us briefly how was your test development process from start to finish - suggestions on how to explain this process could be: *(1)* Recording a loom; or *(2)* writing/documenting how to run the project.
 
 ## Important Notes
 
