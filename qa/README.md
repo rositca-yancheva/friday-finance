@@ -10,7 +10,7 @@ Therefore, you must describe scenarios for at least **THREE** navigation areas (
 ## Submission process
 The candidate must implement the solution and submit a pull request (PR) to this repository with the solution. The PR's process works as follows:
 1. Candidate will clone this repository;
-2. Candidate Will make his/her project in a new branch;
+2. Candidate Will make his/her project in a new branch (the branch name must have the following format `qa-challenge-<your name here>`, example: `qa-challenge-tatiborghi`);
 3. So, the candidate will commit and push all changes to his/her new branch created;
 4. Candidate will send a Pull Request to this repository.
 
