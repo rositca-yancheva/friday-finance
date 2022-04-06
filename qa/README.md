@@ -10,7 +10,7 @@ Therefore, you must describe scenarios for at least **THREE** navigation areas (
 ## Submission process
 The candidate must implement the solution in a new repository (private one) with the solution. The process works as follows:
 1. Candidate will create a private repository;
-2. Candidate will put `tatidutrab`, `ErickPetru` as collaborators in this new repository that must be created specifically for this challenge.
+2. Candidate will put `tatidutrab`, `Fastova` as collaborators in this new repository that must be created specifically for this challenge.
 3. So, the candidate will commit and push all changes to his/her new repository created.
 
 ## Documentation
