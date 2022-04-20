@@ -1,5 +1,5 @@
-# QA candidate challenge goal
-Check your basic skills in specifying test scenarios and plus UI testing automation of these scenarios.
+# QA Engineer Challenge
+Our goal here is to check your basic skills in specifying test scenarios + UI testing automation of these scenarios.
 Therefore, you must describe scenarios for at least **TWO** navigation areas (features) of the Airbank Website (https://joinairbank.com/).
 
 ## Must contain
