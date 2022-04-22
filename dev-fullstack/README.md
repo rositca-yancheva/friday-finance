@@ -44,7 +44,9 @@ Finally, we are here to see your own abilities on writing code, not on getting o
 
 ### Where and how do I need to publish the solution?
 
-Nothing special here. If you can provide a link to a public GitHub repository with a good `README.md`, all good. No need to deploy it anywhere (unless you really want to do that to show something special). During the meeting we'll arrange with you after the challenge, you will show us the solution by sharing your screen, so the deploy really doesn't matter.
+If you can provide a link to a public GitHub repository with a good `README.md`, all good. No need to deploy it anywhere (unless you really want to do that to show something special). During the meeting we'll arrange with you after the challenge, you will show us the solution by sharing your screen, so the deploy really doesn't matter.
+
+Please, send you challenge results to **jobs@joinairbank.com** or to your person of touch at Airbank Engineering.
 
 ### What about the transaction details sub page?
 
