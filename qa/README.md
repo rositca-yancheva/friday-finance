@@ -15,7 +15,7 @@ The candidate must implement the solution in a new repository (private one) with
 
 ## Documentation
 * The goal of this topic is to explain how was the process to choose the website areas for specification and test automation. This step can be sent after all changes in candidate's new repository is completed. Please, sending us an email notifying the challenge completion.
-Also share with us briefly how was your test development process from start to finish - suggestions on how to explain this process could be: *(1)* Recording a loom; or *(2)* writing/documenting how to run the project.
+Also share with us briefly how was your test development process from start to finish - suggestions on how to explain this process could be: *(1)* Recording a [loom](https://www.loom.com/); or *(2)* writing/documenting how to run the project.
 
 ## Note
 * Feel free to use Cypress patterns and best practices as you see fit for this challenge.
