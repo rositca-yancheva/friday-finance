@@ -84,10 +84,6 @@ If you can provide a link to a public GitHub repository with a well written `REA
 
 Please, just send your challenge results to [jobs@joinairbank.com](mailto:jobs@joinairbank.com) in case you arrived here by yourself, or to your person of touch at Airbank.
 
-### What about the transaction details page?
-
-Just decide the best way you think all the data of that transaction should be shown. Of course an end user wouldn't want to see ids, so use the proper entity relations to show only names of foreign entities. And about the category insert/update requirement, a custom autocomplete component with the requested behavior would be incredible, don't you think?
-
 ### Do I need to use all that transactions in the CSV file?!
 
 Yes, we crafted with love a batch with `349933` sample transactions. This way, you can show us that you know how to work with large sets of data without compromising performance. **It's a super important part of the challenge.** 😉
@@ -96,19 +92,35 @@ Yes, we crafted with love a batch with `349933` sample transactions. This way, y
 
 Please read the previous answer.
 
+### Should I use something like infinite scrolling or pagination in the transactions page?
+
+Please read the previous answer.
+
+### Am I supposed to build filtering capabilities plus textual search in the transactions page?
+
+Yes, as described and shown in the sample layout.
+
+### Should the transactions table support sorting?
+
+While not explicitly asked for, the sample layout hints about it. We are curious to see what you would decide in a case like this one. 😊
+
+### What about the transaction details page?
+
+Just decide the best way you think all the data of that transaction should be shown. Of course an end user wouldn't want to see ids, so use the proper entity relations to show only names of foreign entities. And about the category insert/update requirement, a custom autocomplete component with the requested behavior would be incredible, don't you think? 💡
+
 ### What is the desired behavior of functionality "X"?
 
 Anything not explicitly described is open to your decision. But remember that **attention to detail** is a core value being evaluated here. Most of the requirements are documented here.
+
+### What is more important, the code structure or the way the solution works?
+
+Both. Period.
 
 ### I'm not familiar with a certain part of the required stack, is it mandatory to use it?
 
 We love to see people trying to fit to our stack, even without previous experience in it. For example, we already saw React developers with no previous Vue experience showing excellent results which they never thought to be possible before, or self nominated frontend developers creating very organized GraphQL APIs in short time as they never expected.
 
 Remember that **being able to quickly adapt to our stack** is a core value being evaluated here. That being said, you're free to show the best you can, the way you believe you should.
-
-### What is more important, the code structure or the way the solution works?
-
-Both. Period.
 
 ### I won't be able to finish the challenge in time, what should I do?
 
