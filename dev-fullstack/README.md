@@ -8,7 +8,7 @@ When it comes to full-stack developers and tech stack, we have two strong belief
 
 Therefore, this technical challenge for the full-stack developer role is focused on **being able to quickly adapt to our stack** (even if you aren't used to something in it), **being able to offer an end-to-end solution to the problem** (from the interface to the database), and **being able to show good decisions based on attention to details** (after all, software development is a science, but also an art of crafting the best experience possible in each feature you put your hands on).
 
-## TLDR
+## TL;DR
 
 The challenge is to create a small SPA composed of two routes, one to show the list of financial transactions, and another one to show a specific transaction details. The two general requirements are just:
 - The main page should show a table of transactions, allowing to textually search transactions and/or to filter by bank, by account or by date range (start month and end month).
@@ -22,7 +22,7 @@ Use the technologies of our stack as much as you can (preferably, use all), but 
 
 ## Technical Details
 
-If you were not lazy enough for stop right on the [TLDR](#tldr), nice! Here is a step-by-step explanation to you.
+If you were not lazy enough for stop right on the [TL;DR](#tldr), nice! Here is a step-by-step explanation to you.
 
 ### General Instructions
 
@@ -108,13 +108,13 @@ While not explicitly asked for, the sample layout hints about it. We are curious
 
 Just decide the best way you think all the data of that transaction should be shown. Of course an end user wouldn't want to see ids, so use the proper entity relations to show only names of foreign entities. And about the category insert/update requirement, a custom autocomplete component with the requested behavior would be incredible, don't you think? 💡
 
-### What is the desired behavior of functionality "X"?
+### What is the desired behavior of a certain functionality?
 
 Anything not explicitly described is open to your decision. But remember that **attention to detail** is a core value being evaluated here. Most of the requirements are documented here.
 
 ### What is more important, the code structure or the way the solution works?
 
-Both. Period.
+Both :)
 
 ### I'm not familiar with a certain part of the required stack, is it mandatory to use it?
 
@@ -128,7 +128,7 @@ Let us know why you can't. If it's an acceptable reason, we'll give you a few mo
 
 ### I'm a super senior developer, why a coding challenge?
 
-In our experience, it's more difficult to find developers who are super experienced in all pieces of technology a company uses than finding oil in your backyard. Therefore, it's really important to us to see the challenge solved before being able to continue the hiring process.
+In our experience, it's more difficult to find developers who are experienced in all pieces of technology a company uses than finding oil in your backyard. Therefore, it's really important to us to see the challenge solved before being able to continue the hiring process.
 
 Also, here we like to level developers based on their fit to Airbank's needs, not based on other arbitrary metrics like years since graduation or years using some technology of our stack. Hence, if you want to be considered for a senior role, why not prove it? 😎
 
@@ -140,4 +140,4 @@ After you send us the confirmation of completion with link(s) to the repository(
 
 ### I have more questions about this challenge, where do I ask?
 
-Honestly, here you have all information you need. Just follow it with attention to all details and make decisions where you can't find instructions. After all, your capacity to make decisions is an important part of what is being evaluated.
+You should have all information you need laid out here. Be attentive to all details and make decisions where you can't find instructions. After all, your capacity to make and justify decisions is an important part of what is being evaluated!
