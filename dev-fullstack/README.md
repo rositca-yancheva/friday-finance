@@ -114,7 +114,7 @@ Anything not explicitly described is open to your decision. But remember that **
 
 ### What is more important, the code structure or the way the solution works?
 
-Both :)
+Both. 😉
 
 ### I'm not familiar with a certain part of the required stack, is it mandatory to use it?
 
