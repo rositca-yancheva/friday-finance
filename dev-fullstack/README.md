@@ -1,6 +1,6 @@
 # Full-Stack Developer Challenge
 
-At **[Friday Finance](https://fridayfinance.com/)** we use many tools, technologies and integrations to third-party service providers, but our core application stack is currently based on [Vue](https://vuejs.org/), [Nuxt](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Apollo GraphQL](https://www.apollographql.com/), [Node](https://nodejs.org/), [TypeScript](https://www.typescriptlang.org/), [Prisma](https://www.prisma.io/), and [PostgreSQL](https://www.postgresql.org/).
+At **[Friday Finance](https://fridayfinance.com/)** we use many tools, technologies and integrations to third-party service providers, but our core application stack is currently based on [Vue](https://vuejs.org/), [Nuxt](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Apollo Client](https://www.apollographql.com/docs/react), [Node](https://nodejs.org/), [GraphQL](https://www.graphql.com/), [Apollo Server](https://www.apollographql.com/docs/apollo-server), [TypeScript](https://www.typescriptlang.org/), [Prisma](https://www.prisma.io/), and [PostgreSQL](https://www.postgresql.org/).
 
 When it comes to full-stack developers and tech stack, we have two strong beliefs here:
 1. Everyone can (and should) be full-stack, writing all the layers of the solution. We are a customer-centered company, and all users want is access to great, fully-functional features. They don't care about shiny pieces of code in a layer of abstraction they will never see. Yes, good code is a must, but only code that delivers the desired features matters.
