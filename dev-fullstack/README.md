@@ -1,6 +1,6 @@
 # Full-Stack Developer Challenge
 
-At **[Airbank](https://joinairbank.com/)** we use many tools, technologies and integrations to third-party service providers, but our core application stack is currently based on [Vue](https://vuejs.org/), [Nuxt](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Apollo GraphQL](https://www.apollographql.com/), [Node](https://nodejs.org/), [TypeScript](https://www.typescriptlang.org/), [Prisma](https://www.prisma.io/), and [PostgreSQL](https://www.postgresql.org/).
+At **[Friday Finance](https://fridayfinance.com/)** we use many tools, technologies and integrations to third-party service providers, but our core application stack is currently based on [Vue](https://vuejs.org/), [Nuxt](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Apollo GraphQL](https://www.apollographql.com/), [Node](https://nodejs.org/), [TypeScript](https://www.typescriptlang.org/), [Prisma](https://www.prisma.io/), and [PostgreSQL](https://www.postgresql.org/).
 
 When it comes to full-stack developers and tech stack, we have two strong beliefs here:
 1. Everyone can (and should) be full-stack, writing all the layers of the solution. We are a customer-centered company, and all users want is access to great, fully-functional features. They don't care about shiny pieces of code in a layer of abstraction they will never see. Yes, good code is a must, but only code that delivers the desired features matters.
@@ -82,7 +82,7 @@ Finally, we are here to see your own abilities on writing code, not on getting o
 
 If you can provide a link to a public GitHub repository with a well written `README.md`, all good. No need to deploy it anywhere (unless you really want to do that to show something special). During the meeting we'll arrange with you after the challenge, you will show us the solution by sharing your screen, so the deploy really doesn't matter.
 
-Please, just send your challenge results to [jobs@joinairbank.com](mailto:jobs@joinairbank.com) in case you arrived here by yourself, or to your person of touch at Airbank.
+Please, just send your challenge results to [jobs@fridayfinance.com](mailto:jobs@fridayfinance.com) in case you arrived here by yourself, or to your person of touch at Friday Finance.
 
 ### Do I need to use all that transactions in the CSV file?!
 
@@ -130,7 +130,7 @@ Let us know why you can't. If it's an acceptable reason, we'll give you a few mo
 
 In our experience, it's more difficult to find developers who are experienced in all pieces of technology a company uses than finding oil in your backyard. Therefore, it's really important to us to see the challenge solved before being able to continue the hiring process.
 
-Also, here we like to level developers based on their fit to Airbank's needs, not based on other arbitrary metrics like years since graduation or years using some technology of our stack. Hence, if you want to be considered for a senior role, why not prove it? 😎
+Also, here we like to level developers based on their fit to Friday Finance's needs, not based on other arbitrary metrics like years since graduation or years using some technology of our stack. Hence, if you want to be considered for a senior role, why not prove it? 😎
 
 > **Tip:** We don't want to insult anyone. If you are sure that you are at a unique level of excellence, and you have some strong examples of this excellence, like in public repositories, just send us some links and we will see if we can skip the challenge.
 
