@@ -122,6 +122,18 @@ We love to see people trying to fit to our stack, even without previous experien
 
 Remember that **being able to quickly adapt to our stack** is a core value being evaluated here. That being said, you're free to show the best you can, the way you believe you should.
 
+### I'm interested in working with **frontend only**, how does this code challenge make sense?
+
+As we said before, we really believe that everyone can (and should) be full-stack, writing all layers of the solution.
+
+But regardless of this philosophy, we certainly understand how some professionals are stronger on one side than the other, and we usually accept hiring developers more specialized on the frontend. But then the requirement is: You need to be excellent on the frontend to convince us of this, showing to be a real senior on the client-side technologies we use.
+
+So the recommendation is: If you can learn quickly and show something working with backend included, way better. If you can't, at least use a good API mocking approach and ensure your code shines on the frontend side.
+
+### I'm interested in working with **backend only**, how does this code challenge make sense?
+
+The same as above, just invert every time its written frontend for backend and vice-versa.
+
 ### I won't be able to finish the challenge in time, what should I do?
 
 Let us know why you can't. If it's an acceptable reason, we'll give you a few more days. But not being able to finish the challenge in time is not a reason to skip the challenge, just talk openly with us and any unexpected situation can easily be solved.
