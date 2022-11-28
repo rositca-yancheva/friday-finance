@@ -24,6 +24,8 @@ Use the technologies of our stack as much as you can (preferably, use all), but 
 
 If you were not lazy enough for stop right on the [TL;DR](#tldr), nice! Here is a step-by-step explanation to you.
 
+> _**Attention:** If you're here aiming for a frontend only or for a backend only opportunity, check [this answer](#im-interested-in-working-with-frontend-only-how-does-this-code-challenge-make-sense) first._
+
 ### General Instructions
 
 As any good full-stack Web solution, you'll need frontend (aka client-side code), backend (aka server-side code), and database layers in place. On top of that, the solution itself is really simple, since this challenge is more like a partial [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) than anything really exotic.
