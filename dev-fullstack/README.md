@@ -60,7 +60,7 @@ When it comes to the software architectural decisions in general, you're free to
 
 ### Building the App
 
-To create the SPA, the best scenario is if you use Vue and Nuxt, however you're free to choose between Vue/Nuxt 2, or Vue/Nuxt 3. If won't choose to go with Nuxt (and remember that you may be asked on why), remember to handle properly the routes using Vue Router.
+To create the SPA, the best scenario is if you use Vue and Nuxt, however you're free to choose between Vue/Nuxt 2, or Vue/Nuxt 3. If you choose the Vue 2 path, we'll value way more if you do that with Vue 2.7 and **Composition API** instead of Options API. If won't choose to go with Nuxt (and remember that you may be asked on why), remember to handle properly the routes using Vue Router.
 
 > _**Tip:** As already mentioned, TypeScript in the frontend is not required, but if you decide to use, enable all strict enforcements because we don't like to see `any` anywhere. Besides that, if your code can show us interesting ways of solving the problem, like good structure with growth of the interface in mind, or a care on internationalization aspects, or exploring cool Vue/Nuxt features, or having Jest unit tests coverage in place, or having Cypress end-to-end tests in place, or having Storybook documenting your components, or any other cool thing, or all that together, we consider it a bonus._
 
