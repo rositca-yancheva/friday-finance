@@ -16,9 +16,9 @@ The challenge is to create a small SPA composed of two routes, one to show the l
 
 ![Sample Layout for Transactions Page](./sample-layout.png)
 
-There's no mandatory layout to copy, but we propose to show something simple yet organized in a minimalist way. Take the image as a bare example of the main page layout, not as a strict design to follow. And the details page is totally open to your own creativity, surprise us.
+There's no mandatory layout to copy, but we propose to show something simple yet organized in a minimalist way. Take the image as a bare example of the main page layout, not as a strict design to follow. And the details page is totally open to your own creativity regarding the layout, surprise us!
 
-Use the technologies of our stack as much as you can (preferably, use all), but TypeScript is expected only for the backend. Some [CSV files](./data/) with a bunch of sample data are attached to this repository.
+Use the technologies of our stack as much as you can (preferably, use all). Some [CSV files](./data/) with a bunch of sample data are attached to this repository, we recommend using these files to seed your sample database.
 
 ## Technical Details
 
@@ -50,7 +50,7 @@ To populate the database, the best scenario is if you can leverage Prisma's seed
 
 > _**Tip:** If your code can show us a good ability to handle CSV files and to batch insert thousands of records in short time, we consider it a bonus._
 
-### Building the API
+### Building the GraphQL API
 
 To build the API, the best scenario is if you can base yourself on Apollo Server, using a schema-first strategy with GraphQL tags, with every resolver properly TypeScript-typed, and using Prisma features to communicate with the database.
 
@@ -60,11 +60,11 @@ When it comes to the software architectural decisions in general, you're free to
 
 > _**Tip:** Just keep in mind that we appreciate [DRY](http://wiki.c2.com/?DontRepeatYourself) principles, but we also understand that [KISS](https://people.apache.org/~fhanik/kiss.html) and even [AHA](https://kentcdodds.com/blog/aha-programming) are super important for fast-paced environments like ours is, so be prepared to explain your rationale._
 
-### Building the App
+### Building the Vue App
 
-To create the SPA, the best scenario is if you use Vue and Nuxt, however you're free to choose between Vue/Nuxt 2, or Vue/Nuxt 3. If you choose the Vue 2 path, we'll value way more if you do that with Vue 2.7 and **Composition API** instead of Options API. If won't choose to go with Nuxt (and remember that you may be asked on why), remember to handle properly the routes using Vue Router.
+To create the SPA, the best scenario is if you use Vue and Nuxt, either be the 2 or 3 versions. But if you go for Vue 2 path, anyway we recommend you to use **Composition API** instead of Options API. If won't choose to go with Nuxt, remember to handle properly the routes using Vue Router by yourself.
 
-> _**Tip:** As already mentioned, TypeScript in the frontend is not required, but if you decide to use, enable all strict enforcements because we don't like to see `any` anywhere. Besides that, if your code can show us interesting ways of solving the problem, like good structure with growth of the interface in mind, or a care on internationalization aspects, or exploring cool Vue/Nuxt features, or having Jest unit tests coverage in place, or having Cypress end-to-end tests in place, or having Storybook documenting your components, or any other cool thing, or all that together, we consider it a bonus._
+> _**Tip:** TypeScript in the frontend is not required, but if you decide to use, enable all strict enforcements because we don't like to see `any` anywhere. Besides that, if your code can show us interesting ways of solving the problem, like good structure with growth of the interface in mind, or a care on internationalization aspects, or exploring cool Vue/Nuxt features, or having Jest unit tests coverage in place, or having Cypress end-to-end tests in place, or having Storybook documenting your components, or any other cool thing, or all that together, we consider it a bonus. Sometimes taking precious time to handle bonus parts really makes a difference._
 
 To visually enhance the pages, the best scenario is if you can do with Tailwind 3, but if you want to show incredible raw CSS abilities, feel free to go this way. Remember to be prepared to explain any decisions you've made.
 
@@ -76,43 +76,39 @@ To communicate with the API, the best scenario is if you can leverage Apollo Cli
 
 Finally, we are here to see your own abilities on writing code, not on getting others code. We usually don't like to see third-party Vue components in use, it's extremely recommended to write your own components, or just use native browser elements if you can't.
 
-> _**Tip:** The number of Vue components you will write matters, for the good and the bad. If your code can show us precise decisions on what and when to "componentize", splitting pages in good self contained and reusable pieces, we consider it a bonus._
+> _**Tip:** The number of Vue components you will write matters, for the good and the bad. If your code can show us precise decisions on what and when to "componentize", splitting pages in good self contained and reusable pieces, we consider it a bonus. Following a methodology like the [Atomic Design](https://atomicdesign.bradfrost.com/) is certainly a huge bonus in the process._
 
 ## FAQ
 
 ### Where and how do I need to publish the solution?
 
-If you can provide a link to a public GitHub repository with a well written `README.md`, all good. No need to deploy it anywhere (unless you really want to do that to show something special). During the meeting we'll arrange with you after the challenge, you will show us the solution by sharing your screen, so the deploy really doesn't matter.
+If you can provide a link to a public GitHub repository with a well written `README.md`, all good. No need to deploy it anywhere (unless you really want to do that to show something special). During the meeting we'll arrange with you after receiving your solution, you will show us the solution by sharing your screen, so the deploy really doesn't matter.
 
-Please, just send your challenge results to [jobs@fridayfinance.com](mailto:jobs@fridayfinance.com) in case you arrived here by yourself, or to your person of touch at Friday Finance.
+Please, just send your challenge solution URL(s) to your person of contact at Friday Finance.
 
 ### Do I need to use all that transactions in the CSV file?!
 
 Yes, we crafted with love a batch with `349933` sample transactions. This way, you can show us that you know how to work with large sets of data without compromising performance. **It's a super important part of the challenge.** 😉
 
-### But can I return all that transactions to the page directly?!
-
-Please read the previous answer.
-
 ### Should I use something like infinite scrolling or pagination in the transactions page?
 
-Please read the previous answer.
+Yes, as explained in the previous answer, this is an important part of the challenge: Showing us that you can deal with large amounts of data without compromising the solution performance. But the way of doing so, if with infinite scrolling, cursor based pagination, index based pagination, whataver, is upon to you to decide.
 
 ### Am I supposed to build filtering capabilities plus textual search in the transactions page?
 
-Yes, as described and shown in the sample layout.
+Yes, if you can follow all that was described and shown in the sample layout, we appreciate.
 
 ### Should the transactions table support sorting?
 
-While not explicitly asked for, the sample layout hints about it. We are curious to see what you would decide in a case like this one. 😊
+The sample layout hints about it. Is it explicit enough to be developed? We are curious to see what you would decide in a case like this one. 😊
 
 ### What about the transaction details page?
 
-Just decide the best way you think all the data of that transaction should be shown. Of course an end user wouldn't want to see ids, so use the proper entity relations to show only names of foreign entities. And about the category insert/update requirement, a custom autocomplete component with the requested behavior would be incredible, don't you think? 💡
+Just decide the best way you think all the data of that transaction should be shown. Of course an end user wouldn't want to see ids, so use the proper foreign key relations to show only names of entities. And about the category insert/update requirement, a custom autocomplete component with the requested behavior would be incredible, but you can proposer other UX for it, you can let your creativity shine if you want to. 💡
 
 ### What is the desired behavior of a certain functionality?
 
-Anything not explicitly described is open to your decision. But remember that **attention to detail** is a core value being evaluated here. Most of the requirements are documented here.
+Remember that **attention to detail** is a core value being evaluated here. Most of the requirements (if not all) are documented here.
 
 ### What is more important, the code structure or the way the solution works?
 
@@ -122,36 +118,38 @@ Both. 😉
 
 We love to see people trying to fit to our stack, even without previous experience in it. For example, we already saw React developers with no previous Vue experience showing excellent results which they never thought to be possible before, or self nominated frontend developers creating very organized GraphQL APIs in short time as they never expected.
 
-Remember that **being able to quickly adapt to our stack** is a core value being evaluated here. That being said, you're free to show the best you can, the way you believe you should.
+Remember that **being able to quickly adapt to our stack** is a core value being evaluated here. You're free to show the best you can, the way you believe you should, but we really appreciate if you can do that considering all our stack.
 
 ### I'm interested in working with **frontend only**, how does this code challenge make sense?
 
 As we said before, we really believe that everyone can (and should) be full-stack, writing all layers of the solution.
 
-But regardless of this philosophy, we certainly understand how some professionals are stronger on one side than the other, and we usually accept hiring developers more specialized on the frontend. But then the requirement is: You need to be excellent on the frontend to convince us of this, showing to be a real senior on the client-side technologies we use.
+But regardless of this philosophy, we certainly understand how some professionals are stronger on one side than the other, and we usually accept hiring developers more specialized on the frontend.
 
 So the recommendation is: If you can learn quickly and show something working with backend included, way better. If you can't, at least use a good API mocking approach and ensure your code shines on the frontend side.
 
 ### I'm interested in working with **backend only**, how does this code challenge make sense?
 
-The same as above, just invert every time its written frontend for backend and vice-versa.
+The same as above, but inverted. In this case, if you really can't deliver any frontend, you should create an outstanding GraphQL backend with TypeScript and Apollo Server, also showing strong Prisma and PostgreSQL knowledge.
 
 ### I won't be able to finish the challenge in time, what should I do?
 
-Let us know why you can't. If it's an acceptable reason, we'll give you a few more days. But not being able to finish the challenge in time is not a reason to skip the challenge, just talk openly with us and any unexpected situation can easily be solved.
+Let us know why you can't. If it's an acceptable reason, we'll give you a few more days.
 
 ### I'm a super senior developer, why a coding challenge?
 
-In our experience, it's more difficult to find developers who are experienced in all pieces of technology a company uses than finding oil in your backyard. Therefore, it's really important to us to see the challenge solved before being able to continue the hiring process.
+In our experience, it's more difficult to find developers who are experienced in all pieces of technology a company uses than finding oil in your backyard. Therefore, it's really important to us to see the challenge solution before proceding.
 
-Also, here we like to level developers based on their fit to Friday Finance's needs, not based on other arbitrary metrics like years since graduation or years using some technology of our stack. Hence, if you want to be considered for a senior role, why not prove it? 😎
+Also, here we like to level developers based on their fit to Friday Finance's needs, not based on other arbitrary metrics like years since graduation or years using only one technology of our stack. Hence, if you want to be considered for a senior role, why not prove it? 😎
 
-> **Tip:** We don't want to insult anyone. If you are sure that you are at a unique level of excellence, and you have some strong examples of this excellence, like in public repositories, just send us some links and we will see if we can skip the challenge.
+> **Tip:** We don't want to insult anyone. If you are sure that you are at a unique level of excellence, just drop a message to us and we can convert this async code challenge in a live coding session which will take around 45 minutes and evaluate you in a similar way, but in realtime.
 
 ### What is the next step in the hiring process?
 
-After you send us the confirmation of completion with link(s) to the repository(ies), we'll arrange a meeting with you shortly afterwards, where you will show us the solution and code by sharing your screen. Anything after that will depend on the results shown. Good luck! 🙂
+After you send us the URL(s) to the repository(ies) of your challenge solution, we'll analyse it and arrange a meeting with afterwards, where you will show us the solution and code by sharing your screen. Anything after that will depend on the results shown. Good luck! 🙂
 
 ### I have more questions about this challenge, where do I ask?
 
-You should have all information you need laid out here. Be attentive to all details and make decisions where you can't find instructions. After all, your capacity to make and justify decisions is an important part of what is being evaluated!
+Probably the information is already here, be attentive to all details. But you can also take decisions on parts that are propositally less explained, we want to see how you unblock yourself.
+
+Anyway, if you really need to ask something else about the challenge or about our hiring process in general, just reach your person of contact at Friday Finance.
