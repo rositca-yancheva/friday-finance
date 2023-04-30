@@ -12,6 +12,9 @@ services:
       - '5432:5432'
     volumes: 
       - db:/var/lib/postgresql/data
+      - ./data/accounts.csv:/var/lib/postgresql/accounts.csv
+      - ./data/categories.csv:/var/lib/postgresql/categories.csv
+      - ./data/transactions.csv:/var/lib/postgresql/transactions.csv
 volumes:
   db:
     driver: local

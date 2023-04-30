@@ -8,7 +8,29 @@ datasource db {
 }
 
 model Account {
-  id        Int      @id
-  name      String   @db.VarChar(255)
-  iBank     String   @db.VarChar(255)
+  id           String        @id
+  name         String        @db.VarChar(255)
+  iBank        String        @db.VarChar(255)
+  Transactions Transaction[]
+}
+
+model Category {
+  id           String        @id
+  name         String        @db.VarChar(255)
+  color        String?       @db.VarChar(255)
+  Transactions Transaction[]
+}
+
+model Transaction {
+  id         String    @id
+  account    Account   @relation(fields: [accountId], references: [id])
+  category   Category? @relation(fields: [categoryId], references: [id])
+  reference  String?   @db.VarChar(1000)
+  amount     Decimal   @db.Decimal(9, 2)
+  currency   String    @db.VarChar(255)
+  date       DateTime  @db.Timestamp()
+  accountId  String
+  categoryId String?
+
+  @@map("Transaction")
 }
