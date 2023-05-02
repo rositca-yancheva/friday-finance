@@ -2,6 +2,10 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator typegraphql {
+  provider = "typegraphql-prisma"
+}
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -10,7 +14,7 @@ datasource db {
 model Account {
   id           String        @id
   name         String        @db.VarChar(255)
-  iBank        String        @db.VarChar(255)
+  bank         String        @db.VarChar(255)
   Transactions Transaction[]
 }
 
@@ -23,14 +27,14 @@ model Category {
 
 model Transaction {
   id         String    @id
-  account    Account   @relation(fields: [accountId], references: [id])
-  category   Category? @relation(fields: [categoryId], references: [id])
   reference  String?   @db.VarChar(1000)
   amount     Decimal   @db.Decimal(9, 2)
   currency   String    @db.VarChar(255)
-  date       DateTime  @db.Timestamp()
+  date       DateTime  @db.Timestamp(6)
   accountId  String
   categoryId String?
+  account    Account   @relation(fields: [accountId], references: [id])
+  category   Category? @relation(fields: [categoryId], references: [id])
 
   @@map("Transaction")
 }

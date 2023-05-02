@@ -1,23 +1,23 @@
-import { ApolloServer } from '@apollo/server';
-import { startStandaloneServer } from '@apollo/server/standalone';
+import 'reflect-metadata';
 
-import {
-  Context,
-  createContext,
-} from './context';
-import { schema } from './schema';
+import { ApolloServer } from 'apollo-server';
+import * as tq from 'type-graphql';
 
-const start = async () => {
-  const server = new ApolloServer<Context>({ schema });
+import { resolvers } from '@generated/type-graphql';
 
-  const { url } = await startStandaloneServer(server, {
-    context: createContext,
-    listen: { port: 4000 },
-  });
+import { context } from './context';
 
-  console.log(`\
-  🚀 Server ready at: ${url}
-  `);
-};
+const app = async () => {
+  const schema = await tq.buildSchema({
+    resolvers,
+    validate: false
+  })
 
-start();
+  new ApolloServer({ schema, context: context }).listen({ port: 4000 }, () =>
+    console.log(
+      `🚀 Server ready at: http://localhost:4000`,
+    ),
+  )
+}
+
+app()
