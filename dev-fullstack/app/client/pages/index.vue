@@ -1,11 +1,16 @@
 <template>
-  <Tutorial/>
+  <div class="container mx-auto w-full p-4">
+    <h1  class="text-3xl font-bold underline">Transactions</h1>
+    <transactions-table />
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+import TransactionsTable from '../components/TransactionsTable.vue';
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+  components: {
+    TransactionsTable
+  },
+};
 </script>

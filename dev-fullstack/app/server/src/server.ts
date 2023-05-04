@@ -6,10 +6,11 @@ import * as tq from 'type-graphql';
 import { resolvers } from '@generated/type-graphql';
 
 import { context } from './context';
+import TransactionCountResolver from './transactions-count-resolver';
 
 const app = async () => {
   const schema = await tq.buildSchema({
-    resolvers,
+    resolvers:  resolvers.concat(TransactionCountResolver),
     validate: false
   })
 
