@@ -47,21 +47,6 @@
 <script lang="ts">
 import axios from "axios";
 import moment from "moment";
-import VueRouter from "vue-router";
-
-declare interface Category {
-  name: string;
-  color?: string;
-}
-
-declare interface Transaction {
-  id: string;
-  reference: string;
-  category: Category;
-  currency: string;
-  amount: number;
-  date: Date;
-}
 
 export default {
   data() {
