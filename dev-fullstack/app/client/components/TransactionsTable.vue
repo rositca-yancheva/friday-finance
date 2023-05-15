@@ -26,9 +26,7 @@
                     {{ formatText(item.reference) }}
                   </td>
                   <td class="whitespace-nowrap px-6 py-4">
-                    <span class="label">
-                      {{ item.category.name }}
-                    </span>
+                    <LabeledText :label="item.category" />
                   </td>
                   <td class="whitespace-nowrap px-6 py-4">{{ formatDate(item.date) }}</td>
                   <td class="whitespace-nowrap px-6 py-4">
@@ -47,6 +45,7 @@
 <script lang="ts">
 import axios from "axios";
 import moment from "moment";
+import LabeledText from "./LabeledText.vue";
 
 export default {
   data() {
@@ -54,7 +53,6 @@ export default {
       data: [] as Transaction[],
     };
   },
-
   methods: {
     formatDate(dateString: string | Date) {
       return moment(dateString).format("MMMM Do, YYYY");
@@ -63,13 +61,6 @@ export default {
       return text ? text : "-";
     },
   },
-  //todo find a way to pass the item to the :style binding
-  computed: {
-    boxColor(item: Transaction) {
-      return item.category.color || "#2196f3";
-    },
-  },
-
   async mounted() {
     const response = await axios.post("http://localhost:4000/", {
       query: `
@@ -101,6 +92,6 @@ export default {
     });
     this.data = response.data.data.transactions;
   },
+  components: { LabeledText },
 };
 </script>
-<style scoped src="./../assets/css/transactions-table.css"></style>

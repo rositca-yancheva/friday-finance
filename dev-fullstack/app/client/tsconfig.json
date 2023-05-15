@@ -12,6 +12,7 @@
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
+    "noImplicitThis": false,
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
