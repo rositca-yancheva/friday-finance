@@ -1,6 +1,6 @@
 # A simple fintech app 
 
-The challenge was to create a small SPA composed of two routes, one to show the list of financial transactions, and another one to show a specific transaction details. The two general requirements are just:
+The challenge was to create a small SPA composed of two routes, one to show the list of financial transactions, and another one to show a specific transaction details. The two general requirements are:
 
 * The main page should show a table of transactions, allowing to textually search transactions and/or to filter by bank, by account or by date range (start month and end month).
 * The details page should be shown after clicking on a row of the previous table, then allowing to update the category of the shown transaction, by selecting an existing category or even creating a new category.
